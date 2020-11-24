@@ -1,0 +1,29 @@
+{
+  "name": "vegana-common_ui",
+  "version": "1.0.0",
+  "description": "vegana common ui components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzbakku/vegana-common_ui.git"
+  },
+  "keywords": [
+    "vegana",
+    "ui",
+    "common",
+    "components",
+    "pre",
+    "built",
+    "quick",
+    "start"
+  ],
+  "author": "tejasav dutt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzbakku/vegana-common_ui/issues"
+  },
+  "homepage": "https://github.com/gzbakku/vegana-common_ui#readme"
+}
