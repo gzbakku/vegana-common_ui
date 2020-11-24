@@ -1,0 +1,76 @@
+
+.comp-menu-opener{
+  position: fixed;
+  z-index: 9;
+  height: 100vh;
+  width: 10vw;
+  top:0px;
+  left:0px;
+}
+
+.comp-menu-main{
+  position: fixed;
+  top:0px;
+  left:0vw;
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+  // border: 5px solid red;
+}
+
+  .comp-menu-main-menu{
+    vertical-align: top;
+    float: left;
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    user-select: none;
+    overflow: hidden;
+    // border: 5px solid green;
+  }
+
+    .comp-menu-main-menu-buttons{
+
+    }
+
+      .comp-menu-main-menu-buttons-button{
+        width: 100%;
+        height: 60px;
+        border-bottom: 0.5px solid grey;
+        overflow: hidden;
+      }
+
+        .comp-menu-main-menu-buttons-button-icon{
+          width: 40%;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+          padding-top: 10px;
+        }
+
+          .comp-menu-main-menu-buttons-button-icon-img{
+            width: 40px;
+            height: auto;
+          }
+
+        .comp-menu-main-menu-buttons-button-tag{
+          padding-top: 15px;
+          text-align: center;
+          font-family: "poppins"
+        }
+
+          .comp-menu-main-menu-buttons-button-tag_with_icon{
+            width: 60%;
+            display: inline-block;
+            vertical-align: top;
+          }
+
+  .comp-menu-main-slider{
+    vertical-align: top;
+    float: right;
+    width: 20vw;
+    height: 100vh;
+  }

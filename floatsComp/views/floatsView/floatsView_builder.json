@@ -1,0 +1,74 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {
+    "width": "70vw",
+    "border": "5px solid red",
+    "height": "40vh",
+    "position": "relative"
+   },
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "box": {
+    "type": "div",
+    "name": "box",
+    "index": 1,
+    "style": {
+     "all": {
+      "height": "100px",
+      "width": "200px",
+      "border": "5px solid blue",
+      "display": "inline-block",
+      "position": "absolute",
+      "bottom": "10px",
+      "right": "80px"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {}
+   },
+   "float": {
+    "type": "div",
+    "name": "float",
+    "index": 2,
+    "style": {
+     "all": {
+      "background-color": "#401aff",
+      "display": "inline-block",
+      "height": "50px",
+      "width": "50px",
+      "border-radius": "100px",
+      "position": "absolute",
+      "bottom": "10px",
+      "right": "10px"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {}
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "purple": "#401aff"
+ },
+ "name": "floatsView"
+}

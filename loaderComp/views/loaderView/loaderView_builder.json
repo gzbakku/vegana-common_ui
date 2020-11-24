@@ -1,0 +1,114 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {
+    "border": "5px solid red",
+    "width": "70vw",
+    "height": "100vh",
+    "position": "relative"
+   },
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "card": {
+    "type": "div",
+    "name": "card",
+    "index": 1,
+    "style": {
+     "all": {
+      "border": "5px solid blue",
+      "position": "absolute",
+      "width": "60%",
+      "height": "100px",
+      "left": "11vw",
+      "top": "20vh"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "loader": {
+      "type": "div",
+      "name": "loader",
+      "index": 1,
+      "style": {
+       "all": {
+        "border": "5px solid green",
+        "display": "inline-block",
+        "width": "40%",
+        "height": "100%"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {
+       "spinner": {
+        "type": "div",
+        "name": "spinner",
+        "index": 1,
+        "style": {
+         "all": {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+          "border-radius": "100px",
+          "border-top": "5px solid  #5324ff"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {},
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       }
+      }
+     },
+     "text": {
+      "type": "div",
+      "name": "text",
+      "index": 2,
+      "style": {
+       "all": {
+        "display": "inline-block",
+        "height": "100%",
+        "border": "5px solid purple",
+        "width": "60%"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "text": "loading ..."
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "purple": "#5324ff"
+ },
+ "name": "loaderView"
+}

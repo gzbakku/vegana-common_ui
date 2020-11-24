@@ -1,0 +1,111 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {
+    "width": "70vw",
+    "height": "100vh",
+    "position": "relative",
+    "border": "5px solid red"
+   },
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "card": {
+    "type": "div",
+    "name": "card",
+    "index": 1,
+    "style": {
+     "all": {
+      "border": "5px solid blue",
+      "position": "absolute",
+      "height": "40vh",
+      "width": "80%",
+      "left": "7vw",
+      "top": "10vh"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "body": {
+      "type": "div",
+      "name": "body",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "80%"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     },
+     "buttons": {
+      "type": "div",
+      "name": "buttons",
+      "index": 2,
+      "style": {
+       "all": {
+        "height": "20%",
+        "text-align": "right"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {
+       "button": {
+        "type": "div",
+        "name": "button",
+        "index": 1,
+        "style": {
+         "all": {
+          "display": "inline-block",
+          "padding": "10px",
+          "margin-right": "10px",
+          "background-color": "#6f47ff",
+          "color": "#ffffff",
+          "border-radius": "10px"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "text": "...value"
+        },
+        "should_loop": true,
+        "loop_array": "[\n    {\"value\":\"ok\"},\n    {\"value\":\"edit\"},\n    {\"value\":\"close\"}\n]",
+        "children": {}
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "purple": "#6f47ff",
+  "white": "#ffffff"
+ },
+ "name": "alertView"
+}

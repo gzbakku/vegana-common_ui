@@ -1,0 +1,62 @@
+
+
+$uiCommonCompAlertButtonsColor:#6f47ff;
+$uiCommonCompAlertButtonsFont:'sans-serif';
+$uiCommonCompAlertMessageFont:'sans-serif';
+
+// $font-button:'serif';
+
+@if variable-exists(color-button) {
+    $uiCommonCompAlertButtonsColor : $color-button;
+}
+@if variable-exists(color-secondry) {
+    $uiCommonCompAlertButtonsColor : $color-secondry;
+}
+@if variable-exists(font-button) {
+    $uiCommonCompAlertButtonsFont : $font-button;
+}
+@if variable-exists(font-text) {
+    $uiCommonCompAlertMessageFont : $font-text;
+}
+
+.alert-master{
+	top:0px;
+	left:0px;
+	width:100vw;
+	height:100vh;
+	position:fixed;
+	z-index: inherit;
+}
+
+	.alert-master-card{
+		// border:5px solid blue;
+		position:absolute;
+		min-height:10vh;
+		max-height: 80vh;
+		width:80vw;
+		left:10vw;
+		top:10vh;
+		overflow: auto;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+
+		.alert-master-card-body{
+			padding: 10px;
+			font-family: $uiCommonCompAlertMessageFont;
+		}
+
+		.alert-master-card-buttons{
+			padding: 10px;
+			text-align:right;
+		}
+
+			.alert-master-card-buttons-button{
+				display:inline-block;
+				padding:10px;
+				margin-right:10px;
+				background-color:$uiCommonCompAlertButtonsColor;
+				color:#ffffff;
+				border-radius:6px;
+				font-family: $uiCommonCompAlertButtonsFont;
+				cursor: pointer;
+			}
